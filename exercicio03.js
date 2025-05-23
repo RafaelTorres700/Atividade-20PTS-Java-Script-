@@ -1,4 +1,4 @@
-function tabuada() {
+function tabuadapersonalizada() {
 
 
 let numerobase = parseInt(prompt("Digite o numero que quer multiplicar"));

@@ -14,7 +14,7 @@ function verificarMultiplos() {
 
     for (let i = inicio; i <= fim; i++) {
         if (i % 2 === 0 && i % 3 === 0) {
-            alert(i);
+            alert("Este numero é par e também múltiplo de 3 " + i);
             encontrou = true;
         }
     }

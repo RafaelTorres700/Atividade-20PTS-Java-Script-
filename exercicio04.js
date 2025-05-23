@@ -2,7 +2,7 @@
 //Peça um número limite e some todos os pares de 1 até ele usando while. 
 //Mostre a soma no alert  na pagina html.
 
-function somarPares() {
+function somarPareswhile() {
     let numerolimite = parseInt(prompt("Digite um número limite:"));
     let soma = 0;
     let i = 1;

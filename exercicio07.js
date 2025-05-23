@@ -1,4 +1,4 @@
-verificarPrimo()
+
 function verificarPrimo() {
     let numero = parseInt(prompt("Digite um número: "))
     let primo = true
