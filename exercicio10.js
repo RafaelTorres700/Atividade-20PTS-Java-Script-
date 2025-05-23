@@ -6,3 +6,20 @@
 // Exemplo:
 // Se o usuário informar início = 1 e fim = 15, o script deve exibir:
 // 6 e 12 (são pares e múltiplos de 3).
+
+function verificarMultiplos() {
+    let inicio = parseInt(prompt("Digite o número inicial:"));
+    let fim = parseInt(prompt("Digite o número final:"));
+    let encontrou = false;
+
+    for (let i = inicio; i <= fim; i++) {
+        if (i % 2 === 0 && i % 3 === 0) {
+            alert(i);
+            encontrou = true;
+        }
+    }
+
+    if (!encontrou) {
+        alert("Nenhum número satisfaz a condição.");
+    }
+}
