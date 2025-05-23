@@ -2,7 +2,7 @@
 function classificaridade() {
 
     let idade = parseInt(prompt("Digite sua idade"));
-    document.writeln(`Sua idade é: ${idade}`);
+    
 
 
     console.log("A idade é: " + idade);
