@@ -6,39 +6,37 @@
 
 function calculadoraAvancada() {
     let num1 = parseFloat(prompt("Digite o primeiro número:"));
-    let num2 = parseFloat(prompt("Digite o segundo número:"));
     let operacao = prompt("Digite a operação desejada (+, -, *, /, %, **):");
+    let num2 = parseFloat(prompt("Digite o segundo número:"));
+    
     let resultado;
 
-
-
-  
 
     if (operacao === "+") {
         resultado = num1 + num2;
 
-        
+
     } else if (operacao === "-") {
         resultado = num1 - num2;
-    } 
-    
+    }
+
     else if (operacao === "*") {
         resultado = num1 * num2;
-    } 
-    
+    }
+
     else if (operacao === "/") {
         resultado = num1 / num2;
-    } 
-    
+    }
+
     else if (operacao === "%") {
         resultado = num1 % num2;
-    } 
-    
+    }
+
     else if (operacao === "**") {
         resultado = num1 ** num2;
-    } 
-    
-    
+    }
+
+
 
     alert(`O resultado de ${num1} ${operacao} ${num2} é: ${resultado}`);
 }
