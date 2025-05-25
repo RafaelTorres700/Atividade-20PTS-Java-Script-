@@ -5,17 +5,17 @@ function classificaridade() {
     
 
 
-    console.log("A idade é: " + idade);
+    console.log("Sua idade é: " + idade);
 
 
     if (idade <= 12) {
-        alert("Voce é Criança.");
+        alert("Você é Criança.");
     } else if (idade >= 13 && idade <= 17) {
-        alert("Voce é Adolescente.");
+        alert("Você é Adolescente.");
     } else if (idade >= 18 && idade <= 59) {
-        alert("Voce é Adulto.");
+        alert("Você é Adulto.");
     } else {
-        alert("Voce é Idoso.");
+        alert("Você é Idoso.");
     }
 
 

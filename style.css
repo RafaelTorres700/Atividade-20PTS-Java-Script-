@@ -10,9 +10,21 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
+    align-items: center;
 }
 h1 {
     color: #101010;
     font-family: Arial, sans-serif;
     text-align: center;
+}
+
+h2 {
+    color: #101010;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 }
